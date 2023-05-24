@@ -1,0 +1,43 @@
+* {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-image: 
+    linear-gradient(to right, rgb(59, 55, 55),rgb(0, 0, 0));
+}
+.info {
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+    height: 50rem;
+    width: 30rem;
+    text-align: center;
+    padding: 10px;
+}
+.info:hover {
+    opacity: 0.5;
+}
+.history,h3{
+    float:left;
+    margin-top: -24rem;
+    margin-left: 26rem;
+}
+.contxt {
+    float:left;
+    margin-top: -20rem;
+    margin-left: 10rem;
+    opacity: 0;
+}
+.contxt:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+a {
+    float: left;
+    margin-left: 35rem;
+}
+a:hover {
+    opacity: 0.5;
+}

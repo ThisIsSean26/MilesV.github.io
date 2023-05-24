@@ -1,0 +1,57 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: 
+    linear-gradient(to right, rgb(59, 55, 55),rgb(0, 0, 0));
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.schools {
+    width: 30rem;
+    padding: 5px;
+    text-align: center;
+    height: 50rem;
+    position: absolute;
+    color: white;
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+}
+.schools:hover {
+    opacity:0.5 ;
+}
+.context {
+    float: left;
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+}
+h2 {
+    float: left;
+   margin-top: 0rem;
+    margin-left: 50rem;
+    color: white;
+}
+
+.text {
+    float: left;
+    margin-top: rem;
+    margin-left: 32rem;
+    opacity: 0;
+    height: 50rem;
+}
+.text:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: white;
+    height: 40rem;
+}
+a {
+    float:left;
+    margin-top: 20rem;
+    color: white;
+    margin-left: 35rem;
+}
+a:hover {
+    opacity: 0.5;
+}

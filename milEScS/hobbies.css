@@ -1,0 +1,55 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: 
+    linear-gradient(to right, rgb(59, 55, 55),rgb(0, 0, 0));
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+.hobb {
+
+    height: 40rem;
+    width: 20rem;
+    text-align: center;
+    color: white;
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+    padding: 10px;
+}
+.hobb:hover {
+    opacity: 0.5;
+}
+h2 {
+    float:left;
+    margin-top: -39rem;
+    margin-left: 45rem;
+    color: white;
+}
+.text {
+    
+    float: left;
+    margin-top: -35rem;
+    margin-left:22rem ;
+    color: white;
+    opacity: 0;
+}
+.text:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.context {
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+    float: left;
+    border-top: 1px solid black;
+}
+a {
+    color: white;
+    float:left;
+    margin-left: 40rem;
+}
+a:hover {
+    opacity: 0.5;
+}

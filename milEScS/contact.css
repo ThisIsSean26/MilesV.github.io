@@ -1,0 +1,39 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body {
+    background-image: 
+    linear-gradient(to right, rgb(59, 55, 55),rgb(0, 0, 0));
+}
+.profile {
+    margin-left: 25rem;
+}
+img {
+    border-radius: 80px;
+}
+.fb {
+    float: left;
+    margin-left:20rem;  
+}
+.gmail {
+    float:left;
+    margin-left: 10rem;
+}
+.con {
+    float:left;
+    margin-left: 10rem;
+}
+.socials {
+ margin-top: 10px;
+}
+h3:hover {
+    opacity: 0.5;
+}
+a {
+    float: left;
+    margin-top: 2rem;
+}
+a:hover {
+    opacity: 0.5;
+}

@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: 
+    linear-gradient(to right, rgb(59, 55, 55),rgb(0, 0, 0));
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+.motto {
+    margin: auto;
+    box-shadow: -13px -10px 41px 1px rgba(0,0,0,0.54);
+    height: 10rem;
+    padding: 10px;
+    opacity: 0;
+    color: white;
+}
+.motto:hover {
+    opacity: 1;
+}
+a {
+    color: white;
+    float:left;
+    margin-left: 35rem;
+}
+a:hover {
+    opacity: 0.5;
+}
